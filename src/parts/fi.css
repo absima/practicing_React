@@ -1,0 +1,27 @@
+.calender {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  width: 50%;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+  justify-items: center;
+
+
+}
+
+.box {
+  width: 10vh;
+  height: 10vh;
+  background-color: #ffffff;
+  margin: 2px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}

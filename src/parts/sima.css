@@ -1,0 +1,60 @@
+/* .movie_list{
+  background-color: rgb(92, 76, 76);
+  color: white;
+} */
+.simapart{
+  background-color: rgb(56, 61, 64);
+  color: white;
+  padding-bottom: 50px;
+}
+
+h3 .trending{
+  color: black;
+}
+
+
+img{
+  width: 100%;
+	-webkit-box-reflect: below 5px
+		linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));
+}
+
+.movies{
+  max-height: 300px;
+  object-fit: cover;
+}
+.series{
+  max-height: 300px;
+  object-fit: cover;
+  margin-bottom: 20%;
+}
+.series:hover {
+  transform: scale(1.5); 
+  overflow: hidden;
+  transition: transform 1.5s ease;
+  position: relative;
+  z-index: 9999;
+}
+
+.movie_row{
+  padding-bottom: 5%;
+}
+
+.bgrd{
+  background-image: url("../images/the_perfumier.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 300px;
+  /* float: none;  */
+  margin: 0 auto;
+
+}
+.title_div{
+  color: white;
+}
+
+button{
+  
+}
+
